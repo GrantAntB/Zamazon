@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zamazon/Shop for love...</title>
+<style>
+body {
+background-color: #252552;
+}
+
+header {
+  width: 1900px;
+  background-color: #1b2030;
+  Padding: 15px;
+  text-align: Left;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #090b12;
+  }
+  * {
+  box-sizing: border-box;  
+}
+
+SubHeading {
+  width: 1900px;
+  background-color: #1b2030;
+  Padding: 0px;
+  text-align: Center;
+  font-size: 25px;
+  color: white;
+  border: 0px solid #090b12;
+  }
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #d6bb09;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button {
+  background-color: #37384a; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 30px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #10101f;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #212121;
+  padding: 20px;
+  background-color: Blue; 
+  background-image: linear-gradient(Gray, white);
+}
+
+nav2 {
+float: left;
+  width: 20%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #212121;
+  padding: 20px;
+  background-color: Blue; 
+  background-image: linear-gradient(Gray, white);
+  }
+  
+  nav3 {
+float: left;
+  width: 20%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #212121;
+  padding: 20px;
+  background-color: Blue; 
+  background-image: linear-gradient(Gray, white);
+  }
+  
+  nav4 {
+float: left;
+  width: 20%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #212121;
+  padding: 20px;
+  background-color: Blue; 
+  background-image: linear-gradient(Gray, white);
+  }
+  
+  nav5 {
+float: left;
+  width: 20%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #212121;
+  padding: 20px;
+  background-color: Blue; 
+  background-image: linear-gradient(Gray, white);
+  }
+  
+  .container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: Black; 
+  border: 2px solid #ab8600;
+}
+
+.button1:hover {
+  background-color: #ab8600;
+  color: white;
+}
+
+.div1 {
+  width: 300px;
+  height: 400px;
+  border: 8px solid #0d0d0d;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: white;
+}
+  </style>
+  </head>
+<body>
+
+<header>
+<img src="Zamazon logo Project.png" alt="Zamazon Logo" width="240" height="100">
+<img src="Amazon addres selector.png" alt="Zamazon tool bar" width="240" height="75">
+<img src="Black rectangle.png" alt="Zamazon tool bar" width="850" height="75">
+<img src="Amazon buttons.png" alt="Zamazon tool bar" width="490" height="75">
+<form class="example" action="/action_page.php" style="margin:auto;max-width:1500px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <label style="position:relative;top:-20px;font-size:30px;"/label>
+</form>
+</header>
+
+<div class="btn-group">
+  <button>Home</button>
+  <button>Hot Deals</button>
+  <button>Daily Deals</button>
+  <button>Fashionable</button>
+  <button>Prime</button>
+  <button>Trending</button>
+  <button>Best Sellers</button>
+  <button>Cheap</button>
+  <button>Brand New</button>
+  <button>Fetishes</button>
+  <button onclick="window.location.href='file:///E:/Grant%20User%20Folders/Documents/NotePad++%20Coding/Zamazon/DSMP%20tab%20Zamazon.html';">DSMP</button>
+  
+</div>
+<SubHeading>
+<h2>A place to buy love...</h2>
+</SubHeading>
+<p></p>
+ <nav>
+ <div class="div1">
+ <br>
+ <img style='border:5px solid #ab8600' src="https://www.seekpng.com/png/detail/355-3550364_a-brand-is-an-asset-stock-photo-of.png" width="235" height="235"/>
+ <button onclick="window.location.href='file:///E:/Grant%20User%20Folders/Documents/NotePad++%20Coding/Zamazon/ZamazonPage%20AJ.html';"class="button button1">Buy:$299</button>
+  <br>
+  <h2>Jeffery -- 9.7/10</h2>
+ </div>
+  </nav>
+  <nav2>
+ <div class="div1">
+ <br>
+ <img style='border:5px solid #ab8600' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKER4c8EGcMUf0Hm1owLvgsp83DZUqmlUgvw&usqp=CAU" width="235" height="235"/>
+ <button onclick="window.location.href='file:///E:/Grant%20User%20Folders/Documents/NotePad++%20Coding/Zamazon/ZamazonPage%20AJ.html';"class="button button1">Buy:$349</button>
+  <br>
+  <h2>Gardner -- 7/10</h2>
+ </div>
+  </nav2>
+  <nav3>
+  <div class="div1">
+ <br>
+ <img style='border:5px solid #ab8600' src="https://qiaklobba.com/wp-content/uploads/2020/12/Its-Man-Crush-Monday-and-Philly-Model-Zaire-Is-Our-Gift-To-You-Youre-Welcome.jpg" width="235" height="235"/>
+ <button onclick="window.location.href='file:///E:/Grant%20User%20Folders/Documents/NotePad++%20Coding/Zamazon/ZamazonPage%20AJ.html';"class="button button1">Buy:$320</button>
+  <br>
+  <h2>Alexander -- 8.9/10</h2>
+ </div>
+  </nav3>
+  <nav4>
+  <div class="div1">
+ <br>
+ <img style='border:5px solid #ab8600' src="https://i.kym-cdn.com/entries/icons/medium/000/030/435/cover8.jpg" width="235" height="235"/>
+ <button onclick="window.location.href='file:///E:/Grant%20User%20Folders/Documents/NotePad++%20Coding/Zamazon/ZamazonPage%20AJ.html';"class="button button1">Buy:$599</button>
+  <br>
+  <h2>Joji -- 10/10</h2>
+ </div>
+  </nav4>
+  <nav5>
+  <div class="div1">
+ <br>
+ <img style='border:5px solid #ab8600' src="https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwaW4lMjBzdWl0fGVufDB8fDB8fA%3D%3D&w=1000&q=80" width="235" height="235"/>
+ <button onclick="window.location.href='file:///E:/Grant%20User%20Folders/Documents/NotePad++%20Coding/Zamazon/ZamazonPage%20AJ.html';"class="button button1">Buy:$429</button>
+  <br>
+  <h2>Robert -- 10/10</h2>
+ </div>
+  </nav5>
+  </body>
+</html> 
